@@ -61,7 +61,7 @@ export default function GuidesSection() {
             </div>
           </div>
 
-          <div className="h-[58vh] md:h-[65vh] bg-white dark:bg-[#0B1220]">
+          <div className="h-[58vh] md:h-[60vh] bg-white dark:bg-[#0B1220]">
             <object
               key={activeGuide?.file}
               data={activeGuide?.file}

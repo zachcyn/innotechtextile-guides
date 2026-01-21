@@ -33,7 +33,7 @@ export default function Footer() {
     <footer
       className={`${styles.footer} bg-white dark:bg-navy text-black dark:text-white`}
     >
-      <div className="flex flex-col items-center p-1">
+      <div className="flex flex-col items-center">
         <div className={`flex flex-row items-center ${styles.social}`}>
           <a
             href="https://www.linkedin.com/in/zachcyn"
@@ -69,8 +69,7 @@ export default function Footer() {
           </a>
         </div>
 
-        {/* Footer text */}
-        <div className="text-light-black dark:text-dark-white font-nova text-sm md:text-base text-center pt-4 md:pt-6">
+        <div className="text-light-black dark:text-dark-white font-nova text-sm md:text-base text-center pt-2 md:pt-6">
           <p>Current Location: Bristol, UK&nbsp;|&nbsp;Local Time: {currentDateTime}</p>
         </div>
       </div>

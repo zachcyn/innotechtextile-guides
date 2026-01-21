@@ -15,7 +15,9 @@ export const ThemeProvider = ({ children }) => {
     const saved = localStorage.getItem("theme") || "light";
     setTheme(saved);
 
-    document.documentElement.classList.toggle("dark", saved === "dark");
+    const isDark = saved === "dark";
+    document.documentElement.classList.toggle("dark", isDark);
+    document.documentElement.style.colorScheme = isDark ? "dark" : "light";
   }, []);
 
   const toggleTheme = () => {
@@ -23,7 +25,14 @@ export const ThemeProvider = ({ children }) => {
     setTheme(next);
     localStorage.setItem("theme", next);
 
-    document.documentElement.classList.toggle("dark", next === "dark");
+    const isDark = next === "dark";
+    document.documentElement.classList.toggle("dark", isDark);
+    document.documentElement.style.colorScheme = isDark ? "dark" : "light";
+
+    // Optional: force a repaint for some Chromium cases
+    document.body.style.overflowY = "hidden";
+    document.body.offsetHeight;
+    document.body.style.overflowY = "auto";
   };
 
   return (
