@@ -1,0 +1,33 @@
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 2rem;
+    }
+
+    .context {
+        width: auto;
+    }
+
+    .footer {
+        height: 8rem;
+    }
+
+    .footer .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 70%;
+    }
+}
+
+.footer {
+    padding: 1rem 0;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
