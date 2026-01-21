@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center" id="title">Innotech Textile IT Guide</h1>
 
-## Getting Started
+<p align="center">
+    <img src="public/assets/readme-logo.png" alt="Innotech Textile IT Guide" height="360">
+</p>
 
-First, run the development server:
+<p align="center">
+  <img src="https://img.shields.io/badge/Access-Internal%20Only-critical?style=for-the-badge" alt="Access: Internal Only">
+  <img src="https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&amp;logo=nextdotjs&amp;logoColor=white" alt="Built with: Next.js">
+  <img src="https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Deployed on: Vercel">
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Description
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Internal documentation website containing Innotech Textile IT user guides.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+- Internal-only IT knowledge base (runbooks, FAQs, how-tos).
+- Step-by-step procedures with screenshots.
+- Onboarding guides for new starters.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Built with
 
-## Deploy on Vercel
+- [![Next][Next.js]][Next-url]
+- [![React][React.js]][React-url]
+- [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
+- [![Markdown][Markdown]][Markdown-url]
+- [![npm][npm]][npm-url]
+- [![ESLint][ESLint]][ESLint-url]
+- [![Prettier][Prettier]][Prettier-url]
+- [![Vercel][Vercel]][Vercel-url]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+Copyright (c) 2026 Yie Nian. All rights reserved.
+
+Permission is granted to view and use this repository for personal, non-commercial purposes only.
+
+You may not:
+- Use this work for commercial purposes;
+- Distribute, sublicense, or sell copies of the work;
+- Modify and distribute derivative works without prior written permission.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+---
+
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+
+[TailwindCSS]: https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+[TailwindCSS-url]: https://tailwindcss.com/
+
+[Markdown]: https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white
+[Markdown-url]: https://www.markdownguide.org/
+
+[npm]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
+[npm-url]: https://www.npmjs.com/
+
+[ESLint]: https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white
+[ESLint-url]: https://eslint.org/
+
+[Prettier]: https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=000000
+[Prettier-url]: https://prettier.io/
+
+[Vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[Vercel-url]: https://vercel.com/
