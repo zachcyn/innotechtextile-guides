@@ -113,7 +113,7 @@ const Header = ({ scrollToSection }) => {
             <header className={`p-4 md:p-8 md:pb-4 flex justify-between items-center ${isScrollingUp ? `bg-white`: ''} ${isScrollingUp ? `dark:bg-navy` : ''} ${styles.header} ${!isScrollingUp && !isOpen ? styles.hidden : ''}`}>
                 <div className="flex items-center gap-3">
                 {/* Icon 1 -> main site */}
-                    <a href="https://xxx.com" aria-label="www.yienian.com">
+                    <a href="https://yeinian.com" aria-label="www.yienian.com">
                         <img
                         src={theme === "dark" ? "/assets/icon-dark.png" : "/assets/icon-light.png"}
                         alt="Yie Nian"
