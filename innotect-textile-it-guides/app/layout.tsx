@@ -16,6 +16,36 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Innotech Textile - IT Guides",
   description: "User guides for Innotech Textile SDN BHD.",
+  icons: {
+    icon: [
+      {
+        url: "/assets/favicon-light.png",
+        type: "image/png",
+        rel: "icon",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/assets/favicon-dark.png",
+        type: "image/png",
+        rel: "icon",
+        media: "(prefers-color-scheme: dark)",
+      },
+    ],
+    apple: [
+      {
+        url: "/assets/favicon-light-180x180.png",
+        sizes: "180x180",
+        type: "image/png",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/assets/favicon-dark-180x180.png",
+        sizes: "180x180",
+        type: "image/png",
+        media: "(prefers-color-scheme: dark)",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
