@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="text-light-black dark:text-dark-white font-nova text-sm md:text-base text-center pt-2 md:pt-6">
-          <p>Current Location: Bristol, UK&nbsp;|&nbsp;Local Time: {currentDateTime}</p>
+          <p>Current Location: Sheffield, UK&nbsp;|&nbsp;Local Time: {currentDateTime}</p>
         </div>
       </div>
     </footer>
